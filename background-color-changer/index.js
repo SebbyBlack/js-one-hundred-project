@@ -16,6 +16,9 @@ function changeColor() {
     "yellow",
     "purple",
     "aquamarine",
+    "grey",
+    "pink",
+    "violet",
   ];
   var randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.body.style.backgroundColor = randomColor;
