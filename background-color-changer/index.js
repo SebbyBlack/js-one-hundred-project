@@ -8,6 +8,7 @@ Steps :
 */
 
 function changeColor() {
+  // Array of colors
   let colors = [
     "red",
     "blue",
@@ -20,6 +21,10 @@ function changeColor() {
     "pink",
     "violet",
   ];
-  var randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+  // Variable that grabs a random color from the array
+  let randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+  // Styles the BG color of the body to the random array index
   document.body.style.backgroundColor = randomColor;
 }
