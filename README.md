@@ -7,7 +7,7 @@ a table of contents with each project that I have done currently, each project w
 as well as other things I learned during that project.
 </p>
 <br>
-<p> 
+<p align="center"> 
 All of these projects were from the <a href="https://jsbeginners.com/">jsbeginners</a> website,
 though I did not use any of their code or files, everything was created by myself. I just took 
 the ideas for the challenges.
