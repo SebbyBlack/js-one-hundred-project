@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+a {
+  text-decoration: none;
+  border-radius: 10;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+a:hover {
+  color: white;
+  background-color: gray;
+}
+#box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+#image {
+  border: 1px solid black;
+}
+
+.arrowButton {
+  border-radius: 5px;
+  margin: 5px;
+}
