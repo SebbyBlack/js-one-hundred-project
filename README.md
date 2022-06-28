@@ -8,9 +8,8 @@ as well as other things I learned during that project.
 </p>
 <br>
 <p align="center"> 
-All of these projects were from the <a href="https://jsbeginners.com/">jsbeginners</a> website,
-though I did not use any of their code or files, everything was created by myself. I just took 
-the ideas for the challenges.
+All of these projects were from either the <a href="https://jsbeginners.com/">jsbeginners</a> website, or the <a href="https://javascript30.com/"> JavaScript30 </a> website, 
+though I did not use any of their code JavaScript, I did use files such as images, audio, or html boilerplate when necessary. 
 </p>
 
 <br>
