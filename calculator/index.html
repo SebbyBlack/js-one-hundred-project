@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <div id="display">
+          <h1 id="displayNumber">0</h1>
+          <p id="previousOperation"></p>
+        </div>
+
+        <div id="calcButtons">
+          <button class="numbers">7</button>
+          <button class="numbers">8</button>
+          <button class="numbers">9</button>
+          <button class="operator" id="divider">/</button>
+          <button class="numbers">4</button>
+          <button class="numbers">5</button>
+          <button class="numbers">6</button>
+          <button class="operator" id="multiplier">*</button>
+          <button class="numbers">1</button>
+          <button class="numbers">2</button>
+          <button class="numbers">3</button>
+          <button class="operator" id="adder">+</button>
+          <button class="numbers">0</button>
+          <button id="clear" onclick="clearAll()">CL</button>
+          <button class="equals" id="equals" onclick="equalValues()">=</button>
+          <button class="operator" id="subtractor">-</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="/calculator/script.js"></script>
+  </body>
+</html>
